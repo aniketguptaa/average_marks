@@ -1,0 +1,26 @@
+#Program to show average and overall grade of students in 5 subjects using logical operators
+a = int(input("Enter marks"))
+b = int(input("Enter marks"))
+c = int(input("Enter marks"))
+d = int(input("Enter marks"))
+e = int(input("Enter marks"))
+
+value = a+b+c+d+e
+
+print("Your total is", value)
+
+average_value = value/5
+print("Your average value is", average_value)
+
+print("Your overall grade is")
+if value>300:
+    print("Your grade is A")
+elif value>200 & value<300:
+    print("Your grade is B")
+elif value>100 & value<200:
+    print("Your grade is C")
+else:
+    print("You are failed")
+
+print("Execution done")
+
